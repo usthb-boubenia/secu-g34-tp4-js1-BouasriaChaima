@@ -24,7 +24,17 @@ const students = [
     }
 ];
 //ici on utilise la fonctions flechee, vu dans le slide 46
-t
+const B = (note1, note2) => {
+    //on utilise les operateurs, vu dans le slide 41
+    let moyenne;
+    moyenne = (note1 + note2) / 2 + 5
+    // ici on utilise la condition, vu dans le slide 42
+    if (moyenne >= 10) {// et on utilise les operateurs, vu dans le slide 41
+        return true;
+    } else {
+        return false;
+    }
+};
 //ici on utilise les fonctions , vu dans le slide 45
 function A() {
     let i = 0;//porte de la variable , vu dans le slide 51
